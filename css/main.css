@@ -1,0 +1,95 @@
+.logo{
+  background-color: rgb(60, 114, 184);
+}
+img{
+  width: 400px;
+  float: left;
+}
+.det{
+  padding-bottom: 80px;
+  text-align: right;
+  position: relative;
+  top: 35px;
+  font-size: larger;
+}
+a{
+  padding: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+.det a:hover{
+  background-color: aliceblue;
+}
+.main{
+  position: relative;
+  /* top: 100px; */
+  float: left;
+  width: 30%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 50px; */
+  margin: 25px;
+  margin-top: 50px;
+  
+}
+.img1{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det1{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main1{
+  position: relative;
+  /* top: 100px; */
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  backface-visibility: hidden;
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 500px; */
+  margin: 25px;
+  margin-left: 250px;
+  margin-top: 50px;
+  
+}
+.img2{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det2{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tech::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.nontech{
+  position: relative;
+  top: 200px;
+}
+.tech{
+  position: relative;
+  top: 80px;
+}

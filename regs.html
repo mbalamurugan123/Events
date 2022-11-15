@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/regs.css">
+  <title>Regestation page</title>
+</head>  
+<body>  
+<form>  
+  <h1> Student Registration Form</h1>
+  <hr>  
+  <div class="container">  
+  <label> Firstname: </label><br>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   <br>
+
+<label> Lastname: </label>    <br>
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   <br>
+<div>  
+<label>   
+Course :  
+</label>   
+&ensp;
+<select>  
+<option value="Course">Course</option>  
+<option value="AI">AI & DS</option>  
+<option value="CSE">CSE</option>  
+<option value="IT">IT</option>  
+<option value="ECE">ECE</option>  
+<option value="EEE">EEE</option>  
+<option value="MECH">MECH</option>  
+<option value="CIVIL">CIVIL</option>
+</select>  
+</div>  
+
+<div>  
+<label>   
+Gender :  
+</label> 
+&emsp;
+<input type="radio" value="Male" name="gender" checked > Male   
+&emsp;
+<input type="radio" value="Female" name="gender"> Female   
+&emsp;
+<input type="radio" value="Other" name="gender"> Other  
+  <br><br>
+<label>   
+  Phone :  
+</label>  <br>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2" id="num"/>   
+<input type="text" name="phone" id="num1" placeholder="phone no." size="10"/ required>  <br>
+<label for="">Current Address : </label><br>
+<input type="text" style="height: 100px;"><br>
+<label for="email"><b>Email</b></label>  <br>
+<input type="text" placeholder="Enter Email" name="email" required>  <br>
+
+<label for="email"><b>Password</b></label>  <br>
+<input type="password" placeholder="Password" name="email" required>  <br>
+<label for="email"><b>Confirm Password</b></label>  <br>
+<input type="password" placeholder="Password" name="email" required>  <br>
+</div>  
+<button type="submit" class="registerbtn"><a href="index.html">Register</a></button>    
+</form>  
+
+</body>
+</html>
